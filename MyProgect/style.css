@@ -1,0 +1,143 @@
+
+
+.input-group{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+/* theme */
+hr{
+  background: #eee;
+}
+
+.card{
+  border: 2px solid #eee;
+}
+
+.theme{
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* style Button */
+
+.prettyA{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+
+/* shine button */
+.prettyA:hover{
+  color: #255784;
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 1s;
+}
+
+.prettyA span{
+  position: absolute;
+  display: block;
+}
+
+
+/* pulse top */
+.prettyA span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#2196f3);
+}
+
+.prettyA:hover span:nth-child(1){
+  left: 100%;
+  transition: 1s;
+}
+
+/* pulse bottom */
+.prettyA span:nth-child(3){
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#2196f3);
+}
+
+.prettyA:hover span:nth-child(3){
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+/* pulse right */
+.prettyA span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#2196f3);
+}
+
+.prettyA:hover span:nth-child(2){
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+/* pilse left */
+.prettyA span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#2196f3);
+}
+
+.prettyA:hover span:nth-child(4){
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+
+
+
+/* cutata */
+
+
+.quote-text {
+  font-family: 'Playball', cursive;
+  font-size: 25px;
+  padding: 30px;
+  transition: opacity 800ms ease-in-out;
+}
+
+.quote-author {
+  font-size: 14px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
